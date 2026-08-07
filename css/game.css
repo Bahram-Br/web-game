@@ -1,0 +1,77 @@
+/* CSS Document */
+
+html, body {
+	
+	margin: 0 auto;
+	font-family: sans-serif;
+	font-size: 13px;
+	background-image: url("../img/background.png");
+	background-size: cover;
+	background-position: center;
+}
+	
+h1 {
+	margin: 2px;
+	color: rgb(190, 105, 105);
+	font-family: 'Orbitron', sans-serif;
+	font-size: 48px;
+}
+
+.soccerBall{
+	width: 100px;
+}
+
+.timer {
+	display: none;
+	color: rgb(190, 105, 105);
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#welcome, #directions{
+	color: rgb(190, 105, 105);
+	font-family:cursive;
+	font-weight: bold;
+	font-size: 16px;
+}
+	
+button {
+	font-size: 12px;
+	font-weight: bold;
+	padding: 8px; 
+}
+	
+div#content {
+    width: 700px;
+    margin:0 auto;
+	padding: 20px;
+	background: rgba(0, 0, 0, 0.7);
+	border: 1px solid #ccc ;
+}
+	
+div#controls {
+	text-align: right; 
+}
+	
+	
+div#controls button {
+	margin-left: 20px; 
+}
+	
+span#score{
+	color: #ffffff;
+}
+	
+div#gamespace {
+	position: relative;
+	margin: 20px;
+	padding: 10px;
+	height: 350px;
+	background-color: #FFF;
+	border: 2px solid #CCC;
+	cursor: url("../img/cursor.png"), auto;
+}
+
+div#gamespace img {
+	position: absolute;
+}
